@@ -26,6 +26,7 @@ svg{width:100%;height:auto;display:block}svg text{fill:var(--mu);font-size:9px}.
 .row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}.row.three{grid-template-columns:1.3fr 1fr 1fr}
 .pri{background:var(--ac);border-color:var(--ac);font-weight:600}
 .ph{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.ph img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px}
+.mr{display:grid;grid-template-columns:1fr 100px;gap:10px;align-items:center;padding:5px 0;border-bottom:1px solid var(--ln)}.tb{display:grid;grid-template-columns:1fr auto;gap:6px 12px;margin-top:10px}.tb b{font-weight:600;text-align:right}
 #tm{position:fixed;right:12px;bottom:calc(70px + env(safe-area-inset-bottom));background:var(--ac);border-radius:14px;padding:8px 12px;display:flex;gap:10px;align-items:center;font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}#tm[hidden]{display:none}#tm button{background:none;border:0;padding:0 4px}
 </style></head><body><div id="app"></div><div id="tm" hidden><span></span><button data-a="tx" aria-label="Закрыть таймер">✕</button></div>
 <script type="module" src="app.js"></script>
